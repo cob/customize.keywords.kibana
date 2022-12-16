@@ -13,7 +13,7 @@ cob.custom.customize.push(function (core, utils, ui) {
         let spaceKibana = args[1];
         let dashboardKibana = args[2];
         let query = args[3];
-        let height = args[4] || "300";
+        let height = args[5] || "300";
 
         let varsMatcher = /{{(.+)}}/;
         let vars = query.match(varsMatcher);
