@@ -1,1 +1,1 @@
-import("./cob/_kibana.js");
+import "./cob/_kibana.js";
